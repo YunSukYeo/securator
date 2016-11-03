@@ -3010,3 +3010,132 @@
 <INFO> 3-Nov-2016::20:08:39.129 secu confd[50568]: - Starting to listen for CLI SSH on 0.0.0.0:2024
 <INFO> 3-Nov-2016::20:08:39.247 secu confd[50568]: - ConfD started vsn: 6.2
 <CRIT> 3-Nov-2016::20:09:04.548 secu confd[50568]: - Daemon firewall_daemon died
+<INFO> 3-Nov-2016::20:29:08.695 secu confd[52614]: - Writing daemon log to /home/secu/Hackathon/NSF/Firewall/confd.log
+<INFO> 3-Nov-2016::20:29:08.697 secu confd[52614]: - Writing NETCONF log to /home/secu/Hackathon/NSF/Firewall/netconf.log
+<INFO> 3-Nov-2016::20:29:08.697 secu confd[52614]: - Writing audit log to /home/secu/Hackathon/NSF/Firewall/audit.log
+<INFO> 3-Nov-2016::20:29:08.697 secu confd[52614]: - Writing developer log to /home/secu/Hackathon/NSF/Firewall/devel.log
+<INFO> 3-Nov-2016::20:29:08.697 secu confd[52614]: - Daemon logging started
+<DEBUG> 3-Nov-2016::20:29:08.711 secu confd[52614]: - Loading file ../../../confd-6.2/etc/confd/ietf-yang-types.fxs
+<DEBUG> 3-Nov-2016::20:29:08.711 secu confd[52614]: - Loading file ../../../confd-6.2/etc/confd/iana-crypt-hash.fxs
+<DEBUG> 3-Nov-2016::20:29:08.711 secu confd[52614]: - Loading file ../../../confd-6.2/etc/confd/ietf-inet-types.fxs
+<DEBUG> 3-Nov-2016::20:29:08.712 secu confd[52614]: - Loading file ../../../confd-6.2/etc/confd/ietf-netconf-monitoring.fxs
+<DEBUG> 3-Nov-2016::20:29:08.713 secu confd[52614]: - Loading file ../../../confd-6.2/etc/confd/tailf-common-monitoring.fxs
+<DEBUG> 3-Nov-2016::20:29:08.713 secu confd[52614]: - Loading file ../../../confd-6.2/etc/confd/ietf-netconf-acm.fxs
+<DEBUG> 3-Nov-2016::20:29:08.714 secu confd[52614]: - Loading file ../../../confd-6.2/etc/confd/ietf-yang-library.fxs
+<DEBUG> 3-Nov-2016::20:29:08.715 secu confd[52614]: - Loading file ../../../confd-6.2/etc/confd/ietf-netconf-notifications.fxs
+<DEBUG> 3-Nov-2016::20:29:08.715 secu confd[52614]: - Loading file ../../../confd-6.2/etc/confd/tailf-netconf-monitoring.fxs
+<DEBUG> 3-Nov-2016::20:29:08.716 secu confd[52614]: - Loading file ../../../confd-6.2/etc/confd/tailf-confd-monitoring.fxs
+<DEBUG> 3-Nov-2016::20:29:08.719 secu confd[52614]: - Loading file ../../../confd-6.2/etc/confd/tailf-acm.fxs
+<DEBUG> 3-Nov-2016::20:29:08.721 secu confd[52614]: - Loading file ../../../confd-6.2/etc/confd/tailf-kicker.fxs
+<DEBUG> 3-Nov-2016::20:29:08.721 secu confd[52614]: - Loading file ../../../confd-6.2/etc/confd/tailf-aaa.fxs
+<DEBUG> 3-Nov-2016::20:29:08.722 secu confd[52614]: - Loading file ./hst.fxs
+<DEBUG> 3-Nov-2016::20:29:08.726 secu confd[52614]: - Loading file ../../../confd-6.2/etc/confd/confd.ccl
+<INFO> 3-Nov-2016::20:29:08.773 secu confd[52614]: - Starting to listen for Internal IPC on 127.0.0.1:4565
+<INFO> 3-Nov-2016::20:29:08.997 secu confd[52614]: - Starting to listen for NETCONF SSH on 0.0.0.0:2022
+<INFO> 3-Nov-2016::20:29:09.008 secu confd[52614]: - Starting to listen for NETCONF TCP on 127.0.0.1:2023
+<INFO> 3-Nov-2016::20:29:09.025 secu confd[52614]: - Starting to listen for CLI SSH on 0.0.0.0:2024
+<INFO> 3-Nov-2016::20:29:09.144 secu confd[52614]: - ConfD started vsn: 6.2
+<CRIT> 3-Nov-2016::20:31:29.025 secu confd[52614]: - Daemon firewall_daemon died
+<INFO> 3-Nov-2016::20:31:40.784 secu confd[54343]: - Writing daemon log to /home/secu/Hackathon/NSF/Firewall/confd.log
+<INFO> 3-Nov-2016::20:31:40.786 secu confd[54343]: - Writing NETCONF log to /home/secu/Hackathon/NSF/Firewall/netconf.log
+<INFO> 3-Nov-2016::20:31:40.786 secu confd[54343]: - Writing audit log to /home/secu/Hackathon/NSF/Firewall/audit.log
+<INFO> 3-Nov-2016::20:31:40.786 secu confd[54343]: - Writing developer log to /home/secu/Hackathon/NSF/Firewall/devel.log
+<INFO> 3-Nov-2016::20:31:40.786 secu confd[54343]: - Daemon logging started
+<DEBUG> 3-Nov-2016::20:31:40.800 secu confd[54343]: - Loading file ../../../confd-6.2/etc/confd/ietf-yang-types.fxs
+<DEBUG> 3-Nov-2016::20:31:40.800 secu confd[54343]: - Loading file ../../../confd-6.2/etc/confd/iana-crypt-hash.fxs
+<DEBUG> 3-Nov-2016::20:31:40.801 secu confd[54343]: - Loading file ../../../confd-6.2/etc/confd/ietf-inet-types.fxs
+<DEBUG> 3-Nov-2016::20:31:40.801 secu confd[54343]: - Loading file ../../../confd-6.2/etc/confd/ietf-netconf-monitoring.fxs
+<DEBUG> 3-Nov-2016::20:31:40.802 secu confd[54343]: - Loading file ../../../confd-6.2/etc/confd/tailf-common-monitoring.fxs
+<DEBUG> 3-Nov-2016::20:31:40.802 secu confd[54343]: - Loading file ../../../confd-6.2/etc/confd/ietf-netconf-acm.fxs
+<DEBUG> 3-Nov-2016::20:31:40.803 secu confd[54343]: - Loading file ../../../confd-6.2/etc/confd/ietf-yang-library.fxs
+<DEBUG> 3-Nov-2016::20:31:40.803 secu confd[54343]: - Loading file ../../../confd-6.2/etc/confd/ietf-netconf-notifications.fxs
+<DEBUG> 3-Nov-2016::20:31:40.804 secu confd[54343]: - Loading file ../../../confd-6.2/etc/confd/tailf-netconf-monitoring.fxs
+<DEBUG> 3-Nov-2016::20:31:40.805 secu confd[54343]: - Loading file ../../../confd-6.2/etc/confd/tailf-confd-monitoring.fxs
+<DEBUG> 3-Nov-2016::20:31:40.808 secu confd[54343]: - Loading file ../../../confd-6.2/etc/confd/tailf-acm.fxs
+<DEBUG> 3-Nov-2016::20:31:40.809 secu confd[54343]: - Loading file ../../../confd-6.2/etc/confd/tailf-kicker.fxs
+<DEBUG> 3-Nov-2016::20:31:40.810 secu confd[54343]: - Loading file ../../../confd-6.2/etc/confd/tailf-aaa.fxs
+<DEBUG> 3-Nov-2016::20:31:40.810 secu confd[54343]: - Loading file ./hst.fxs
+<DEBUG> 3-Nov-2016::20:31:40.814 secu confd[54343]: - Loading file ../../../confd-6.2/etc/confd/confd.ccl
+<INFO> 3-Nov-2016::20:31:40.886 secu confd[54343]: - Starting to listen for Internal IPC on 127.0.0.1:4565
+<INFO> 3-Nov-2016::20:31:41.272 secu confd[54343]: - Starting to listen for NETCONF SSH on 0.0.0.0:2022
+<INFO> 3-Nov-2016::20:31:41.291 secu confd[54343]: - Starting to listen for NETCONF TCP on 127.0.0.1:2023
+<INFO> 3-Nov-2016::20:31:41.309 secu confd[54343]: - Starting to listen for CLI SSH on 0.0.0.0:2024
+<INFO> 3-Nov-2016::20:31:41.427 secu confd[54343]: - ConfD started vsn: 6.2
+<CRIT> 3-Nov-2016::20:32:18.066 secu confd[54343]: - Daemon firewall_daemon died
+<INFO> 3-Nov-2016::20:33:45.722 secu confd[56027]: - Writing daemon log to /home/secu/Hackathon/NSF/Firewall/confd.log
+<INFO> 3-Nov-2016::20:33:45.724 secu confd[56027]: - Writing NETCONF log to /home/secu/Hackathon/NSF/Firewall/netconf.log
+<INFO> 3-Nov-2016::20:33:45.724 secu confd[56027]: - Writing audit log to /home/secu/Hackathon/NSF/Firewall/audit.log
+<INFO> 3-Nov-2016::20:33:45.724 secu confd[56027]: - Writing developer log to /home/secu/Hackathon/NSF/Firewall/devel.log
+<INFO> 3-Nov-2016::20:33:45.724 secu confd[56027]: - Daemon logging started
+<DEBUG> 3-Nov-2016::20:33:45.737 secu confd[56027]: - Loading file ../../../confd-6.2/etc/confd/ietf-yang-types.fxs
+<DEBUG> 3-Nov-2016::20:33:45.738 secu confd[56027]: - Loading file ../../../confd-6.2/etc/confd/iana-crypt-hash.fxs
+<DEBUG> 3-Nov-2016::20:33:45.738 secu confd[56027]: - Loading file ../../../confd-6.2/etc/confd/ietf-inet-types.fxs
+<DEBUG> 3-Nov-2016::20:33:45.739 secu confd[56027]: - Loading file ../../../confd-6.2/etc/confd/ietf-netconf-monitoring.fxs
+<DEBUG> 3-Nov-2016::20:33:45.740 secu confd[56027]: - Loading file ../../../confd-6.2/etc/confd/tailf-common-monitoring.fxs
+<DEBUG> 3-Nov-2016::20:33:45.740 secu confd[56027]: - Loading file ../../../confd-6.2/etc/confd/ietf-netconf-acm.fxs
+<DEBUG> 3-Nov-2016::20:33:45.741 secu confd[56027]: - Loading file ../../../confd-6.2/etc/confd/ietf-yang-library.fxs
+<DEBUG> 3-Nov-2016::20:33:45.742 secu confd[56027]: - Loading file ../../../confd-6.2/etc/confd/ietf-netconf-notifications.fxs
+<DEBUG> 3-Nov-2016::20:33:45.742 secu confd[56027]: - Loading file ../../../confd-6.2/etc/confd/tailf-netconf-monitoring.fxs
+<DEBUG> 3-Nov-2016::20:33:45.743 secu confd[56027]: - Loading file ../../../confd-6.2/etc/confd/tailf-confd-monitoring.fxs
+<DEBUG> 3-Nov-2016::20:33:45.745 secu confd[56027]: - Loading file ../../../confd-6.2/etc/confd/tailf-acm.fxs
+<DEBUG> 3-Nov-2016::20:33:45.747 secu confd[56027]: - Loading file ../../../confd-6.2/etc/confd/tailf-kicker.fxs
+<DEBUG> 3-Nov-2016::20:33:45.747 secu confd[56027]: - Loading file ../../../confd-6.2/etc/confd/tailf-aaa.fxs
+<DEBUG> 3-Nov-2016::20:33:45.748 secu confd[56027]: - Loading file ./hst.fxs
+<DEBUG> 3-Nov-2016::20:33:45.752 secu confd[56027]: - Loading file ../../../confd-6.2/etc/confd/confd.ccl
+<INFO> 3-Nov-2016::20:33:45.806 secu confd[56027]: - Starting to listen for Internal IPC on 127.0.0.1:4565
+<INFO> 3-Nov-2016::20:33:46.078 secu confd[56027]: - Starting to listen for NETCONF SSH on 0.0.0.0:2022
+<INFO> 3-Nov-2016::20:33:46.098 secu confd[56027]: - Starting to listen for NETCONF TCP on 127.0.0.1:2023
+<INFO> 3-Nov-2016::20:33:46.116 secu confd[56027]: - Starting to listen for CLI SSH on 0.0.0.0:2024
+<INFO> 3-Nov-2016::20:33:46.234 secu confd[56027]: - ConfD started vsn: 6.2
+<CRIT> 3-Nov-2016::20:36:48.733 secu confd[56027]: - Daemon firewall_daemon died
+<INFO> 3-Nov-2016::20:37:14.199 secu confd[57761]: - Writing daemon log to /home/secu/Hackathon/NSF/Firewall/confd.log
+<INFO> 3-Nov-2016::20:37:14.201 secu confd[57761]: - Writing NETCONF log to /home/secu/Hackathon/NSF/Firewall/netconf.log
+<INFO> 3-Nov-2016::20:37:14.201 secu confd[57761]: - Writing audit log to /home/secu/Hackathon/NSF/Firewall/audit.log
+<INFO> 3-Nov-2016::20:37:14.201 secu confd[57761]: - Writing developer log to /home/secu/Hackathon/NSF/Firewall/devel.log
+<INFO> 3-Nov-2016::20:37:14.201 secu confd[57761]: - Daemon logging started
+<DEBUG> 3-Nov-2016::20:37:14.214 secu confd[57761]: - Loading file ../../../confd-6.2/etc/confd/ietf-yang-types.fxs
+<DEBUG> 3-Nov-2016::20:37:14.215 secu confd[57761]: - Loading file ../../../confd-6.2/etc/confd/iana-crypt-hash.fxs
+<DEBUG> 3-Nov-2016::20:37:14.215 secu confd[57761]: - Loading file ../../../confd-6.2/etc/confd/ietf-inet-types.fxs
+<DEBUG> 3-Nov-2016::20:37:14.216 secu confd[57761]: - Loading file ../../../confd-6.2/etc/confd/ietf-netconf-monitoring.fxs
+<DEBUG> 3-Nov-2016::20:37:14.217 secu confd[57761]: - Loading file ../../../confd-6.2/etc/confd/tailf-common-monitoring.fxs
+<DEBUG> 3-Nov-2016::20:37:14.217 secu confd[57761]: - Loading file ../../../confd-6.2/etc/confd/ietf-netconf-acm.fxs
+<DEBUG> 3-Nov-2016::20:37:14.218 secu confd[57761]: - Loading file ../../../confd-6.2/etc/confd/ietf-yang-library.fxs
+<DEBUG> 3-Nov-2016::20:37:14.218 secu confd[57761]: - Loading file ../../../confd-6.2/etc/confd/ietf-netconf-notifications.fxs
+<DEBUG> 3-Nov-2016::20:37:14.219 secu confd[57761]: - Loading file ../../../confd-6.2/etc/confd/tailf-netconf-monitoring.fxs
+<DEBUG> 3-Nov-2016::20:37:14.220 secu confd[57761]: - Loading file ../../../confd-6.2/etc/confd/tailf-confd-monitoring.fxs
+<DEBUG> 3-Nov-2016::20:37:14.222 secu confd[57761]: - Loading file ../../../confd-6.2/etc/confd/tailf-acm.fxs
+<DEBUG> 3-Nov-2016::20:37:14.225 secu confd[57761]: - Loading file ../../../confd-6.2/etc/confd/tailf-kicker.fxs
+<DEBUG> 3-Nov-2016::20:37:14.226 secu confd[57761]: - Loading file ../../../confd-6.2/etc/confd/tailf-aaa.fxs
+<DEBUG> 3-Nov-2016::20:37:14.227 secu confd[57761]: - Loading file ./hst.fxs
+<DEBUG> 3-Nov-2016::20:37:14.230 secu confd[57761]: - Loading file ../../../confd-6.2/etc/confd/confd.ccl
+<INFO> 3-Nov-2016::20:37:14.276 secu confd[57761]: - Starting to listen for Internal IPC on 127.0.0.1:4565
+<INFO> 3-Nov-2016::20:37:14.744 secu confd[57761]: - Starting to listen for NETCONF SSH on 0.0.0.0:2022
+<INFO> 3-Nov-2016::20:37:14.758 secu confd[57761]: - Starting to listen for NETCONF TCP on 127.0.0.1:2023
+<INFO> 3-Nov-2016::20:37:14.800 secu confd[57761]: - Starting to listen for CLI SSH on 0.0.0.0:2024
+<INFO> 3-Nov-2016::20:37:14.919 secu confd[57761]: - ConfD started vsn: 6.2
+<CRIT> 3-Nov-2016::20:38:39.236 secu confd[57761]: - Daemon firewall_daemon died
+<INFO> 3-Nov-2016::20:38:47.458 secu confd[59419]: - Writing daemon log to /home/secu/Hackathon/NSF/Firewall/confd.log
+<INFO> 3-Nov-2016::20:38:47.460 secu confd[59419]: - Writing NETCONF log to /home/secu/Hackathon/NSF/Firewall/netconf.log
+<INFO> 3-Nov-2016::20:38:47.460 secu confd[59419]: - Writing audit log to /home/secu/Hackathon/NSF/Firewall/audit.log
+<INFO> 3-Nov-2016::20:38:47.460 secu confd[59419]: - Writing developer log to /home/secu/Hackathon/NSF/Firewall/devel.log
+<INFO> 3-Nov-2016::20:38:47.460 secu confd[59419]: - Daemon logging started
+<DEBUG> 3-Nov-2016::20:38:47.475 secu confd[59419]: - Loading file ../../../confd-6.2/etc/confd/ietf-yang-types.fxs
+<DEBUG> 3-Nov-2016::20:38:47.476 secu confd[59419]: - Loading file ../../../confd-6.2/etc/confd/iana-crypt-hash.fxs
+<DEBUG> 3-Nov-2016::20:38:47.476 secu confd[59419]: - Loading file ../../../confd-6.2/etc/confd/ietf-inet-types.fxs
+<DEBUG> 3-Nov-2016::20:38:47.477 secu confd[59419]: - Loading file ../../../confd-6.2/etc/confd/ietf-netconf-monitoring.fxs
+<DEBUG> 3-Nov-2016::20:38:47.478 secu confd[59419]: - Loading file ../../../confd-6.2/etc/confd/tailf-common-monitoring.fxs
+<DEBUG> 3-Nov-2016::20:38:47.478 secu confd[59419]: - Loading file ../../../confd-6.2/etc/confd/ietf-netconf-acm.fxs
+<DEBUG> 3-Nov-2016::20:38:47.479 secu confd[59419]: - Loading file ../../../confd-6.2/etc/confd/ietf-yang-library.fxs
+<DEBUG> 3-Nov-2016::20:38:47.479 secu confd[59419]: - Loading file ../../../confd-6.2/etc/confd/ietf-netconf-notifications.fxs
+<DEBUG> 3-Nov-2016::20:38:47.480 secu confd[59419]: - Loading file ../../../confd-6.2/etc/confd/tailf-netconf-monitoring.fxs
+<DEBUG> 3-Nov-2016::20:38:47.481 secu confd[59419]: - Loading file ../../../confd-6.2/etc/confd/tailf-confd-monitoring.fxs
+<DEBUG> 3-Nov-2016::20:38:47.483 secu confd[59419]: - Loading file ../../../confd-6.2/etc/confd/tailf-acm.fxs
+<DEBUG> 3-Nov-2016::20:38:47.485 secu confd[59419]: - Loading file ../../../confd-6.2/etc/confd/tailf-kicker.fxs
+<DEBUG> 3-Nov-2016::20:38:47.485 secu confd[59419]: - Loading file ../../../confd-6.2/etc/confd/tailf-aaa.fxs
+<DEBUG> 3-Nov-2016::20:38:47.486 secu confd[59419]: - Loading file ./hst.fxs
+<DEBUG> 3-Nov-2016::20:38:47.490 secu confd[59419]: - Loading file ../../../confd-6.2/etc/confd/confd.ccl
+<INFO> 3-Nov-2016::20:38:47.537 secu confd[59419]: - Starting to listen for Internal IPC on 127.0.0.1:4565
+<INFO> 3-Nov-2016::20:38:47.878 secu confd[59419]: - Starting to listen for NETCONF SSH on 0.0.0.0:2022
+<INFO> 3-Nov-2016::20:38:47.893 secu confd[59419]: - Starting to listen for NETCONF TCP on 127.0.0.1:2023
+<INFO> 3-Nov-2016::20:38:47.920 secu confd[59419]: - Starting to listen for CLI SSH on 0.0.0.0:2024
+<INFO> 3-Nov-2016::20:38:48.043 secu confd[59419]: - ConfD started vsn: 6.2

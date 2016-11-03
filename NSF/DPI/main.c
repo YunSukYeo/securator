@@ -14,35 +14,6 @@ int getCurrentTime() {
     /*TODO - implement time function, return current hour*/
 }
 
-void processSenderProtocol(uint8_t *data, int dataLen, struct iphdr *ipheader) {
-	char where[256] = {0}, action = PASS;
-	int n = sprintf(where, "`saddr`=\"%lu\" AND `daddr`=\"%lu\" AND `stime`<%d AND `etime`>%d", (unsigned long)(ipheader->saddr), (unsigned long)(ipheader->daddr), 12, 12); //CURRENT_TIME, CURRENT_TIME);
-    where[n] = '\0';
-    MYSQL_RES *sqlResult = MysqlSelectQuery("`firewall_rule`", "`action`", where, true);
-
-    if(MysqlGetNumRows(sqlResult) > 0) {
-        MYSQL_ROW row = MysqlGetRow(sqlResult);
-        action = (int) *(row[0]);
-    }
-
-    int metadataNum = 0;
-    int resultHeaderLen = (2 /*resultCode(1) + metadataNum(1)*/ + metadataNum ) * sizeof(uint8_t);
-    int packetLen = ipHeaderLen + resultHeaderLen + (dataLen - ipHeaderLen);
-
-    uint8_t *packet = (uint8_t *)malloc(packetLen);
-    uint8_t metadataCodes[1] = {DDOS_INSPECTION};
-
-    /* Attach our header & outter trunneling header */
-    attach_outter_encapsulation(packet, FIREWALL_IP, SFF_IP, TUNNELING_PROTOCOL, packetLen);
-    attach_inspection_result((packet + ipHeaderLen), action, metadataNum, metadataCodes);
-    memcpy((void *)(packet + ipHeaderLen + resultHeaderLen), (void *)(data + ipHeaderLen), dataLen - ipHeaderLen); //Deteach IP Header of outter encapsulation in data 
-
-    /* Send inspection result packet to SFF */
-    sendPacket(packet);
-
-    free(packet);
-}
-
 void processUdpProtocol(uint8_t *data, int dataLen, struct iphdr *ipheader) {
 	struct udphdr *udpheader = (struct udphdr *) (data + ipHeaderLen + ipHeaderLen); // outterIpHeader + innerIpHeader + udpHeader ...
 
@@ -50,6 +21,7 @@ void processUdpProtocol(uint8_t *data, int dataLen, struct iphdr *ipheader) {
 	int udpHeaderLen = sizeof(struct udphdr);
 	int sourcePort = ntohs(udpheader->source);
 	int destPort = ntohs(udpheader->dest);
+	char action = PASS;
 
 	uint8_t *sipContents = (uint8_t *)(data + ipHeaderLen + ipHeaderLen + udpHeaderLen);
 
@@ -78,9 +50,18 @@ void processUdpProtocol(uint8_t *data, int dataLen, struct iphdr *ipheader) {
 
 
 	printf("From: %s, To: %s User-Agent: %s\n", fromPhoneNumber, toPhoneNumber, userAgent);
+	
+	char where[256] = {0};
+	int n = sprintf(where, "`fromPhoneNubmer` LIKE \"%%%s%%\" AND `toPhoneNumber` LIKE \"%%%s%%\" AND `userAgent` LIKE \"%%%s%%\"", fromPhoneNumber, toPhoneNumber, userAgent);
+    where[n] = '\0';
+	printf("where: %s", where);
+    MYSQL_RES *sqlResult = MysqlSelectQuery("`dpi_rule`", "`action`", where, true);
 
+    if(MysqlGetNumRows(sqlResult) > 0) {
+        MYSQL_ROW row = MysqlGetRow(sqlResult);
+        action = (int) *(row[0]);
+    }
 
-	int action = PASS;
     int metadataNum = 0;
     int resultHeaderLen = (2 /*resultCode(1) + metadataNum(1)*/ + metadataNum ) * sizeof(uint8_t);
     int packetLen = ipHeaderLen + resultHeaderLen + (dataLen - ipHeaderLen);
@@ -109,7 +90,7 @@ void processPacket(uint8_t *data, int dataLen, int protocol) {
 	printIPHeader(ipheader);
 
 	if (ipheader->protocol == SENDER_PROTOCOL) {
-		processSenderProtocol(data, dataLen, ipheader);
+		printf("SENDER PROTOCOL\n");
 	} else if(ipheader->protocol == UDP_PROTOCOL) {
 		processUdpProtocol(data, dataLen, ipheader);
 	}
