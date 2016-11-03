@@ -1,0 +1,12 @@
+# Created by: admin
+# Date: 2016-10-13 17:19:09
+# Via: netconf
+# Type: delta
+# Label: 
+# Comment: 
+# No: 10069
+
+policy {
+    delete:
+    rules testtest;
+}
