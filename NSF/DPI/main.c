@@ -59,7 +59,7 @@ void processUdpProtocol(uint8_t *data, int dataLen, struct iphdr *ipheader) {
 
     if(MysqlGetNumRows(sqlResult) > 0) {
         MYSQL_ROW row = MysqlGetRow(sqlResult);
-        action = (int) *(row[0]);
+        action = (int) *(row[0]) - 48; // Make ASCII to integer
     }
 
     int metadataNum = 0;
