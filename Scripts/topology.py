@@ -114,10 +114,10 @@ def simpleTest():
 
 
 	# In order to check flow rule
-	facebook.cmd('../bin/ipPacketReceiver ', facebook.name, facebook.IP(), ' > /tmp/facebook.out &');
-	google.cmd('../bin/ipPacketReceiver ', google.name, google.IP(), ' > /tmp/google.out &');
-	naver.cmd('../bin/ipPacketReceiver ', naver.name, naver.IP(), ' > /tmp/naver.out &');
-	instagram.cmd('../bin/ipPacketReceiver ', instagram.name, instagram.IP(), ' > /tmp/instagram.out &');
+	facebook.cmd('../bin/ipPacketReceiver > /tmp/facebook.out &');
+	google.cmd('../bin/ipPacketReceiver > /tmp/google.out &');
+	naver.cmd('../bin/ipPacketReceiver > /tmp/naver.out &');
+	instagram.cmd('../bin/ipPacketReceiver > /tmp/instagram.out &'); #', instagram.name + '-eth0', instagram.IP(), ' 
 
 
 

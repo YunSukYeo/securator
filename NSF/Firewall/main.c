@@ -15,14 +15,15 @@ int getCurrentTime() {
 }
 
 void processSenderProtocol(uint8_t *data, int dataLen, struct iphdr *ipheader) {
-	char where[256] = {0}, action = PASS;
+	char where[256] = {0};
+	uint8_t action = PASS;
 	int n = sprintf(where, "`saddr`=\"%lu\" AND `daddr`=\"%lu\" AND `stime`<%d AND `etime`>%d", (unsigned long)(ipheader->saddr), (unsigned long)(ipheader->daddr), 12, 12); //CURRENT_TIME, CURRENT_TIME);
     where[n] = '\0';
     MYSQL_RES *sqlResult = MysqlSelectQuery("`firewall_rule`", "`action`", where, true);
 
     if(MysqlGetNumRows(sqlResult) > 0) {
         MYSQL_ROW row = MysqlGetRow(sqlResult);
-        action = (int) *(row[0]) - 48; // ASCII to integer
+        action = (uint8_t) *(row[0]) - 48; // ASCII to integer
     }
 
     int metadataNum = 0;
@@ -57,7 +58,7 @@ void processUdpProtocol(uint8_t *data, int dataLen, struct iphdr *ipheader) {
 
 		uint8_t *packet = (uint8_t *)malloc(packetLen);
 	    uint8_t metadataCodes[1] = {DPI_INSPECTION};
-		char action = ADVANCED;
+		uint8_t action = ADVANCED;
 
 	    /* Attach our header & outter trunneling header */
 	    attach_outter_encapsulation(packet, FIREWALL_IP, SFF_IP, TUNNELING_PROTOCOL, packetLen);

@@ -42,7 +42,7 @@ void processPacket(uint8_t *data, int dataLen, int protocol) {
         }
         printf("/*************************************/\n");
 
-        struct iphdr *origin_iphdr = (struct iphdr *)(data + ipHeaderLen + 2 + metadataNum);
+        struct iphdr *origin_iphdr = (struct iphdr *)(data + ipHeaderLen + resultHeaderLen);
         printIPHeader(origin_iphdr);
 
         if(actionCode == PASS) {

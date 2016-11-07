@@ -1107,3 +1107,105 @@
 <INFO> 3-Nov-2016::20:38:47.792 secu confd[59419]: confd embedded apps in phase1: []
 <ERR> 3-Nov-2016::20:38:47.843 secu confd[59419]: devel-aaa Module "tailf-webui" in access rule "any-group/tailf-webui-user" does not exist - ignoring rule
 <INFO> 3-Nov-2016::20:38:47.858 secu confd[59419]: confd embedded apps in phase2: []
+<INFO> 7-Nov-2016::14:55:55.427 secu confd[129466]: confd embedded apps in early_phase0: []
+<INFO> 7-Nov-2016::14:55:55.687 secu confd[129466]: confd mmap_schema handle_info got msg: timeout
+<INFO> 7-Nov-2016::14:55:55.699 secu confd[129466]: confd embedded apps in phase0: []
+<INFO> 7-Nov-2016::14:55:55.817 secu confd[129466]: devel-cdb Loaded oper data from ./confd-cdb/O.cdb (4 bytes data in 0.000s)
+<INFO> 7-Nov-2016::14:55:55.938 secu confd[129466]: devel-cdb Loaded schema file: ./confd-cdb/C.cdb (v3 from 6.2)
+<INFO> 7-Nov-2016::14:55:55.940 secu confd[129466]: devel-cdb Loaded configuration from ./confd-cdb/A.cdb (1.39 KiB data, 1 transaction in 0.002s)
+<INFO> 7-Nov-2016::14:55:56.091 secu confd[129466]: confd embedded apps in phase1: []
+<ERR> 7-Nov-2016::14:55:56.198 secu confd[129466]: devel-aaa Module "tailf-webui" in access rule "any-group/tailf-webui-user" does not exist - ignoring rule
+<INFO> 7-Nov-2016::14:55:56.242 secu confd[129466]: confd embedded apps in phase2: []
+<INFO> 7-Nov-2016::15:09:42.248 secu confd[129466]: devel-c Worker closed daemon id: 0, worker id: 5, socket: {socket,<0.181.0>}
+<INFO> 7-Nov-2016::15:09:54.059 secu confd[957]: confd embedded apps in early_phase0: []
+<INFO> 7-Nov-2016::15:09:54.150 secu confd[957]: confd mmap_schema handle_info got msg: timeout
+<INFO> 7-Nov-2016::15:09:54.156 secu confd[957]: confd embedded apps in phase0: []
+<INFO> 7-Nov-2016::15:09:54.199 secu confd[957]: devel-cdb Loaded oper data from ./confd-cdb/O.cdb (4 bytes data in 0.000s)
+<INFO> 7-Nov-2016::15:09:54.228 secu confd[957]: devel-cdb Loaded schema file: ./confd-cdb/C.cdb (v3 from 6.2)
+<INFO> 7-Nov-2016::15:09:54.229 secu confd[957]: devel-cdb Loaded configuration from ./confd-cdb/A.cdb (1.39 KiB data, 1 transaction in 0.000s)
+<INFO> 7-Nov-2016::15:09:54.291 secu confd[957]: confd embedded apps in phase1: []
+<ERR> 7-Nov-2016::15:09:54.410 secu confd[957]: devel-aaa Module "tailf-webui" in access rule "any-group/tailf-webui-user" does not exist - ignoring rule
+<INFO> 7-Nov-2016::15:09:54.443 secu confd[957]: confd embedded apps in phase2: []
+<INFO> 7-Nov-2016::15:13:02.641 secu confd[2740]: confd embedded apps in early_phase0: []
+<INFO> 7-Nov-2016::15:13:02.733 secu confd[2740]: confd mmap_schema handle_info got msg: timeout
+<INFO> 7-Nov-2016::15:13:02.738 secu confd[2740]: confd embedded apps in phase0: []
+<INFO> 7-Nov-2016::15:13:02.781 secu confd[2740]: devel-cdb Loaded oper data from ./confd-cdb/O.cdb (4 bytes data in 0.000s)
+<INFO> 7-Nov-2016::15:13:02.809 secu confd[2740]: devel-cdb Loaded schema file: ./confd-cdb/C.cdb (v3 from 6.2)
+<INFO> 7-Nov-2016::15:13:02.810 secu confd[2740]: devel-cdb Loaded configuration from ./confd-cdb/A.cdb (1.39 KiB data, 1 transaction in 0.000s)
+<INFO> 7-Nov-2016::15:13:02.866 secu confd[2740]: confd embedded apps in phase1: []
+<ERR> 7-Nov-2016::15:13:02.919 secu confd[2740]: devel-aaa Module "tailf-webui" in access rule "any-group/tailf-webui-user" does not exist - ignoring rule
+<INFO> 7-Nov-2016::15:13:02.933 secu confd[2740]: confd embedded apps in phase2: []
+<INFO> 7-Nov-2016::15:24:09.078 secu confd[4754]: confd embedded apps in early_phase0: []
+<INFO> 7-Nov-2016::15:24:09.178 secu confd[4754]: confd mmap_schema handle_info got msg: timeout
+<INFO> 7-Nov-2016::15:24:09.184 secu confd[4754]: confd embedded apps in phase0: []
+<INFO> 7-Nov-2016::15:24:09.229 secu confd[4754]: devel-cdb Loaded oper data from ./confd-cdb/O.cdb (4 bytes data in 0.000s)
+<INFO> 7-Nov-2016::15:24:09.261 secu confd[4754]: devel-cdb Loaded schema file: ./confd-cdb/C.cdb (v3 from 6.2)
+<INFO> 7-Nov-2016::15:24:09.261 secu confd[4754]: devel-cdb Loaded configuration from ./confd-cdb/A.cdb (1.39 KiB data, 1 transaction in 0.000s)
+<INFO> 7-Nov-2016::15:24:09.320 secu confd[4754]: confd embedded apps in phase1: []
+<ERR> 7-Nov-2016::15:24:09.374 secu confd[4754]: devel-aaa Module "tailf-webui" in access rule "any-group/tailf-webui-user" does not exist - ignoring rule
+<INFO> 7-Nov-2016::15:24:09.390 secu confd[4754]: confd embedded apps in phase2: []
+<INFO> 7-Nov-2016::15:29:38.247 secu confd[4754]: devel-c Worker closed daemon id: 0, worker id: 5, socket: {socket,<0.181.0>}
+<INFO> 7-Nov-2016::15:29:48.041 secu confd[6488]: confd embedded apps in early_phase0: []
+<INFO> 7-Nov-2016::15:29:48.160 secu confd[6488]: confd mmap_schema handle_info got msg: timeout
+<INFO> 7-Nov-2016::15:29:48.167 secu confd[6488]: confd embedded apps in phase0: []
+<INFO> 7-Nov-2016::15:29:48.219 secu confd[6488]: devel-cdb Loaded oper data from ./confd-cdb/O.cdb (4 bytes data in 0.000s)
+<INFO> 7-Nov-2016::15:29:48.253 secu confd[6488]: devel-cdb Loaded schema file: ./confd-cdb/C.cdb (v3 from 6.2)
+<INFO> 7-Nov-2016::15:29:48.254 secu confd[6488]: devel-cdb Loaded configuration from ./confd-cdb/A.cdb (1.39 KiB data, 1 transaction in 0.000s)
+<INFO> 7-Nov-2016::15:29:48.322 secu confd[6488]: confd embedded apps in phase1: []
+<ERR> 7-Nov-2016::15:29:48.379 secu confd[6488]: devel-aaa Module "tailf-webui" in access rule "any-group/tailf-webui-user" does not exist - ignoring rule
+<INFO> 7-Nov-2016::15:29:48.394 secu confd[6488]: confd embedded apps in phase2: []
+<INFO> 7-Nov-2016::15:38:10.219 secu confd[8317]: confd embedded apps in early_phase0: []
+<INFO> 7-Nov-2016::15:38:10.420 secu confd[8317]: confd mmap_schema handle_info got msg: timeout
+<INFO> 7-Nov-2016::15:38:10.432 secu confd[8317]: confd embedded apps in phase0: []
+<INFO> 7-Nov-2016::15:38:10.529 secu confd[8317]: devel-cdb Loaded oper data from ./confd-cdb/O.cdb (4 bytes data in 0.000s)
+<INFO> 7-Nov-2016::15:38:10.612 secu confd[8317]: devel-cdb Loaded schema file: ./confd-cdb/C.cdb (v3 from 6.2)
+<INFO> 7-Nov-2016::15:38:10.612 secu confd[8317]: devel-cdb Loaded configuration from ./confd-cdb/A.cdb (1.39 KiB data, 1 transaction in 0.000s)
+<INFO> 7-Nov-2016::15:38:10.799 secu confd[8317]: confd embedded apps in phase1: []
+<ERR> 7-Nov-2016::15:38:10.886 secu confd[8317]: devel-aaa Module "tailf-webui" in access rule "any-group/tailf-webui-user" does not exist - ignoring rule
+<INFO> 7-Nov-2016::15:38:10.921 secu confd[8317]: confd embedded apps in phase2: []
+<INFO> 7-Nov-2016::15:49:45.576 secu confd[10188]: confd embedded apps in early_phase0: []
+<INFO> 7-Nov-2016::15:49:45.752 secu confd[10188]: confd mmap_schema handle_info got msg: timeout
+<INFO> 7-Nov-2016::15:49:45.758 secu confd[10188]: confd embedded apps in phase0: []
+<INFO> 7-Nov-2016::15:49:45.802 secu confd[10188]: devel-cdb Loaded oper data from ./confd-cdb/O.cdb (4 bytes data in 0.000s)
+<INFO> 7-Nov-2016::15:49:45.831 secu confd[10188]: devel-cdb Loaded schema file: ./confd-cdb/C.cdb (v3 from 6.2)
+<INFO> 7-Nov-2016::15:49:45.831 secu confd[10188]: devel-cdb Loaded configuration from ./confd-cdb/A.cdb (1.39 KiB data, 1 transaction in 0.000s)
+<INFO> 7-Nov-2016::15:49:45.889 secu confd[10188]: confd embedded apps in phase1: []
+<ERR> 7-Nov-2016::15:49:45.948 secu confd[10188]: devel-aaa Module "tailf-webui" in access rule "any-group/tailf-webui-user" does not exist - ignoring rule
+<INFO> 7-Nov-2016::15:49:45.962 secu confd[10188]: confd embedded apps in phase2: []
+<INFO> 7-Nov-2016::15:53:51.198 secu confd[11857]: confd embedded apps in early_phase0: []
+<INFO> 7-Nov-2016::15:53:51.348 secu confd[11857]: confd mmap_schema handle_info got msg: timeout
+<INFO> 7-Nov-2016::15:53:51.355 secu confd[11857]: confd embedded apps in phase0: []
+<INFO> 7-Nov-2016::15:53:51.407 secu confd[11857]: devel-cdb Loaded oper data from ./confd-cdb/O.cdb (4 bytes data in 0.000s)
+<INFO> 7-Nov-2016::15:53:51.440 secu confd[11857]: devel-cdb Loaded schema file: ./confd-cdb/C.cdb (v3 from 6.2)
+<INFO> 7-Nov-2016::15:53:51.440 secu confd[11857]: devel-cdb Loaded configuration from ./confd-cdb/A.cdb (1.39 KiB data, 1 transaction in 0.000s)
+<INFO> 7-Nov-2016::15:53:51.492 secu confd[11857]: confd embedded apps in phase1: []
+<ERR> 7-Nov-2016::15:53:51.558 secu confd[11857]: devel-aaa Module "tailf-webui" in access rule "any-group/tailf-webui-user" does not exist - ignoring rule
+<INFO> 7-Nov-2016::15:53:51.572 secu confd[11857]: confd embedded apps in phase2: []
+<INFO> 7-Nov-2016::16:13:43.430 secu confd[11857]: devel-c Worker closed daemon id: 0, worker id: 5, socket: {socket,<0.181.0>}
+<INFO> 7-Nov-2016::16:14:03.599 secu confd[14172]: confd embedded apps in early_phase0: []
+<INFO> 7-Nov-2016::16:14:03.697 secu confd[14172]: confd mmap_schema handle_info got msg: timeout
+<INFO> 7-Nov-2016::16:14:03.704 secu confd[14172]: confd embedded apps in phase0: []
+<INFO> 7-Nov-2016::16:14:03.749 secu confd[14172]: devel-cdb Loaded oper data from ./confd-cdb/O.cdb (4 bytes data in 0.000s)
+<INFO> 7-Nov-2016::16:14:03.781 secu confd[14172]: devel-cdb Loaded schema file: ./confd-cdb/C.cdb (v3 from 6.2)
+<INFO> 7-Nov-2016::16:14:03.782 secu confd[14172]: devel-cdb Loaded configuration from ./confd-cdb/A.cdb (1.39 KiB data, 1 transaction in 0.000s)
+<INFO> 7-Nov-2016::16:14:03.852 secu confd[14172]: confd embedded apps in phase1: []
+<ERR> 7-Nov-2016::16:14:03.931 secu confd[14172]: devel-aaa Module "tailf-webui" in access rule "any-group/tailf-webui-user" does not exist - ignoring rule
+<INFO> 7-Nov-2016::16:14:03.945 secu confd[14172]: confd embedded apps in phase2: []
+<INFO> 7-Nov-2016::16:29:14.667 secu confd[16369]: confd embedded apps in early_phase0: []
+<INFO> 7-Nov-2016::16:29:14.768 secu confd[16369]: confd mmap_schema handle_info got msg: timeout
+<INFO> 7-Nov-2016::16:29:14.774 secu confd[16369]: confd embedded apps in phase0: []
+<INFO> 7-Nov-2016::16:29:14.817 secu confd[16369]: devel-cdb Loaded oper data from ./confd-cdb/O.cdb (4 bytes data in 0.000s)
+<INFO> 7-Nov-2016::16:29:14.848 secu confd[16369]: devel-cdb Loaded schema file: ./confd-cdb/C.cdb (v3 from 6.2)
+<INFO> 7-Nov-2016::16:29:14.849 secu confd[16369]: devel-cdb Loaded configuration from ./confd-cdb/A.cdb (1.39 KiB data, 1 transaction in 0.000s)
+<INFO> 7-Nov-2016::16:29:14.909 secu confd[16369]: confd embedded apps in phase1: []
+<ERR> 7-Nov-2016::16:29:14.961 secu confd[16369]: devel-aaa Module "tailf-webui" in access rule "any-group/tailf-webui-user" does not exist - ignoring rule
+<INFO> 7-Nov-2016::16:29:14.975 secu confd[16369]: confd embedded apps in phase2: []
+<INFO> 7-Nov-2016::16:36:37.451 secu confd[18230]: confd embedded apps in early_phase0: []
+<INFO> 7-Nov-2016::16:36:37.545 secu confd[18230]: confd mmap_schema handle_info got msg: timeout
+<INFO> 7-Nov-2016::16:36:37.551 secu confd[18230]: confd embedded apps in phase0: []
+<INFO> 7-Nov-2016::16:36:37.595 secu confd[18230]: devel-cdb Loaded oper data from ./confd-cdb/O.cdb (4 bytes data in 0.000s)
+<INFO> 7-Nov-2016::16:36:37.625 secu confd[18230]: devel-cdb Loaded schema file: ./confd-cdb/C.cdb (v3 from 6.2)
+<INFO> 7-Nov-2016::16:36:37.625 secu confd[18230]: devel-cdb Loaded configuration from ./confd-cdb/A.cdb (1.39 KiB data, 1 transaction in 0.000s)
+<INFO> 7-Nov-2016::16:36:37.756 secu confd[18230]: confd embedded apps in phase1: []
+<ERR> 7-Nov-2016::16:36:37.874 secu confd[18230]: devel-aaa Module "tailf-webui" in access rule "any-group/tailf-webui-user" does not exist - ignoring rule
+<INFO> 7-Nov-2016::16:36:37.910 secu confd[18230]: confd embedded apps in phase2: []

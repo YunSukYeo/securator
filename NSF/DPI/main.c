@@ -21,7 +21,7 @@ void processUdpProtocol(uint8_t *data, int dataLen, struct iphdr *ipheader) {
 	int udpHeaderLen = sizeof(struct udphdr);
 	int sourcePort = ntohs(udpheader->source);
 	int destPort = ntohs(udpheader->dest);
-	char action = PASS;
+	uint8_t action = PASS;
 
 	uint8_t *sipContents = (uint8_t *)(data + ipHeaderLen + ipHeaderLen + udpHeaderLen);
 
@@ -59,7 +59,7 @@ void processUdpProtocol(uint8_t *data, int dataLen, struct iphdr *ipheader) {
 
     if(MysqlGetNumRows(sqlResult) > 0) {
         MYSQL_ROW row = MysqlGetRow(sqlResult);
-        action = (int) *(row[0]) - 48; // Make ASCII to integer
+        action = (uint8_t) *(row[0]) - 48; // Make ASCII to integer
     }
 
     int metadataNum = 0;
